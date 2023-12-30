@@ -1,11 +1,8 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import Facebook from "../../Assets/ComponentSVG/Facebook";
-import Linkedin from "../../Assets/ComponentSVG/Linkedin";
-import Twitter from "../../Assets/ComponentSVG/Twitter";
-import Pinterest from "../../Assets/ComponentSVG/Pinterest";
 import mockData from "./mockDataFooter";
-function Footer() {
+import clsx from "clsx";
+function Footer({ light , dark}) {
   const ContactItem = ({ icon, text, href }) => (
     <div className={styles.rowInCol}>
       <span className="material-symbols-outlined">{icon}</span>{" "}
@@ -17,7 +14,7 @@ function Footer() {
 
   return (
     <>
-      <footer className={styles.main}>
+      <footer className={clsx({ [styles.bgLight]: light, [styles.bgDark]: dark })}>
         <div className={styles.Footer}>
           <div className={styles.row}>
             <div className={styles.col}>
@@ -40,22 +37,22 @@ function Footer() {
           <ul className={styles.socialBox}>
             <li>
               <a href="">
-                <Facebook />
+              <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li>
               <a href="">
-                <Linkedin />
+              <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
             <li>
               <a href="">
-                <Twitter />
+              <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li>
               <a href="">
-                <Pinterest />
+              <i class="fab fa-pinterest"></i>
               </a>
             </li>
           </ul>
