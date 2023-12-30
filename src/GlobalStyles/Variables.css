@@ -1,0 +1,56 @@
+:root {
+  /* 01. Primary Colors */
+  --primary: #2563eb;
+
+  /* Shades Colors */
+  --primary-shade-4: #012b4b;
+  --primary-shade-3: #02497e;
+  --primary-shade-2: #02497e;
+  --primary-shade-1: #0474c9;
+
+  /* Tints Colors */
+  --primary-tint-4: #36a7fc;
+  --primary-tint-3: #69bdfd;
+  --primary-tint-2: #9bd3fd;
+  --primary-tint-1: #cde9fe;
+
+  /* 02. Secondary Colors */
+  --secondary: #fc6f05;
+
+  /* Shades Colors */
+  --secondary-shade-4: #4c2101;
+  --secondary-shade-3: #652c02;
+  --secondary-shade-2: #b04e04;
+  --secondary-shade-1: #e36404;
+
+  /* Tints Colors */
+  --secondary-tint-4: #fd8c37;
+  --secondary-tint-3: #fda969;
+  --secondary-tint-2: #fec59b;
+  --secondary-tint-1: #fee2cd;
+
+  /* 03. state color  */
+  --state-Info: #2f80ed;
+  --state-Success: #00966d;
+  --state-warning: #e2b93b;
+  ---state-Error-lightt: #c30000;
+
+  /* 04. Base color */
+  --secondary-Secondary: #fc6f05;
+  --primary-primary: #0065F4;
+  
+  /* 05. Neutral color */
+  --Neutral-Black-1: #0c0c0c;
+  --Neutral-Black-2: #1d1d1d;
+  --Neutral-Black-3: #282828;
+  --Neutral-white: #ffffff;
+
+  --Neutral-gray-1: #4f4f4f;
+  --Neutral-gray-2: #404040;
+  --Neutral-gray-3: #bdbdbd;
+  --Neutral-gray-4: #dfdfdf;
+  --Neutral-gray-5: #e0e0e0;
+
+
+  --border : 0.063rem solid #e5e5e5
+}

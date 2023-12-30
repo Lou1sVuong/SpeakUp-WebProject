@@ -1,0 +1,28 @@
+.containerLogo {
+  display: inline-flex;
+  height: 3.438rem;
+  align-items: center;
+  gap: 0.25rem;
+  flex-shrink: 0;
+  text-wrap: nowrap;
+}
+
+.textLight {
+color: var(--primary-primary, #0065F4);
+color: var(--primary-primary, color(display-p3 0.1451 0.3882 0.9216));
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+}
+.textDark {
+color: var(--Neutral-white, #FFF);
+color: var(--Neutral-white, color(display-p3 1 1 1));
+text-align: center;
+font-family: Poppins;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 61.6px; 
+}
