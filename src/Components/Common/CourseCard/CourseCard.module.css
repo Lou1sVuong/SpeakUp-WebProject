@@ -1,0 +1,75 @@
+.CourseCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    width: 320px;
+    flex-shrink: 0;
+    background-color: aqua;
+    border-radius: 8px;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+    border: 1px solid var(--Neutral-gray-DFDFDF, #DFDFDF);
+    background: var(--Neutral-white, #FFF);
+    padding: 0.8rem 0.5rem;
+}   
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.CourseCard .image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transform: translate(0.5);
+}
+
+.CourseCard .image:hover {
+   scale: 1.1;
+   transition: all 0.3s ease-in-out;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row+.row {
+    margin-top: 1rem;
+}
+
+.title h3 {
+    overflow: hidden;
+    color: var(--Neutral-Black3-4F4F4F, #282828);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 0.5rem 0;
+    font-weight: 600;
+}
+
+.desc {
+    color: var(--Neutral-Black3-4F4F4F, #282828);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.logo {
+    color: var(--Dark-25, rgba(8, 8, 8, 0.25));
+    text-align: center;
+    font-weight: 900;
+    margin-right: 0.25rem;
+
+}

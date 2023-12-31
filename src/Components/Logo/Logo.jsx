@@ -10,9 +10,11 @@ function Logo({ light, dark }) {
   return (
     <div>
       <div className={containerClass}>
-        {light && <img src={LogoBlue} alt="Logo" />}
+       <a href="">
+       {light && <img src={LogoBlue} alt="Logo" />}
         {dark && <img src={LogoWhite} alt="Logo" />}
         <span className={textClass}>Speak up</span>
+       </a>
       </div>
     </div>
   );

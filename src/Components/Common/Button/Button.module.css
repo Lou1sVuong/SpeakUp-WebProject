@@ -4,15 +4,16 @@
     padding: 0.6rem 1rem;
     justify-content: center;
     align-items: center;
-    gap: 8px;
+    text-align: center;
+    gap: 0.5rem;
     flex-shrink: 0;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 
 }
 .primary {
     color: var(--White, #FFF);
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -22,14 +23,14 @@
     background: var(--primary-primary-hover, #0052CC);
 }
 .primary:active  {
-    background: var(--primary-primary-pressed, #0747A6);
+    background: var(--primary-primary-pressed, #0a55c6);
     scale: 1.055;
 }
 
 .secondary {
     color: var(--White, #FFF);
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
