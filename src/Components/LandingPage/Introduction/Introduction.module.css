@@ -13,6 +13,7 @@
 .row {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .col {
@@ -20,7 +21,6 @@
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  padding: 1rem 1rem;
   width: 100%;
 }
 
@@ -98,7 +98,9 @@
   font-size: 1.125rem;
   font-weight: 400;
 }
-
+.col + .col {
+  margin: 0 3rem;
+}
 .col img {
   height: 25rem;
   width: 37.5rem;

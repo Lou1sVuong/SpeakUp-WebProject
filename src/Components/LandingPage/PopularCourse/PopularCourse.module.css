@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 3.75rem 6.75rem;
+
+}
+.title {
+    color: var(--primary-shade-1, #003C92);
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.viewMore {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}

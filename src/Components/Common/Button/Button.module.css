@@ -8,6 +8,7 @@
     gap: 0.5rem;
     flex-shrink: 0;
     border-radius: 0.5rem;
+    cursor: pointer;
 
 }
 .primary {
@@ -44,3 +45,32 @@
     background: var(--primary-primary-pressed, #fcb929);
     scale: 1.055;
 }
+.nofillPrimary {
+    color: var(--primary-primary, #0065F4);
+    background: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-primary, #0067FD);
+}
+.nofillPrimary:hover {
+    background: #5192fa0c;
+}
+.nofillPrimary:active {
+    background: #5192fa31;
+    scale: 1.055;
+}
+
+
+.nofillSecondary {
+    color: var(--secondary-Secondary, #F6AA00);
+    background: transparent;
+    border-radius: 0.5rem;
+    border: 1px solid var(--secondary-Secondary, #F6AA00);
+}
+.nofillSecondary:hover {
+    background: #f6a8000f;
+}
+.nofillSecondary:active {
+    background: #f6a80029;
+    scale: 1.055;
+}
+
