@@ -36,8 +36,10 @@
   ---state-Error-lightt: #c30000;
 
   /* 04. Base color */
-  --secondary-Secondary: #fc6f05;
   --primary-primary: #0065F4;
+  --primary-primary-hover: #0052CC;
+  --secondary-Secondary: #F6AA00;
+  --secondary-Secondary-hover: #ffbe32;
   
   /* 05. Neutral color */
   --Neutral-Black-1: #0c0c0c;

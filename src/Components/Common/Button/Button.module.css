@@ -1,0 +1,45 @@
+.button {
+    display: inline-flex;
+    height: 2.8rem;
+    padding: 0.6rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+
+}
+.primary {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--primary-primary, #0065F4);
+}
+.primary:hover {
+    background: var(--primary-primary-hover, #0052CC);
+}
+.primary:active  {
+    background: var(--primary-primary-pressed, #0747A6);
+    scale: 1.055;
+}
+
+.secondary {
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: var(--secondary-Secondary, #F6AA00);
+}
+.secondary:hover {
+    background: var(--secondary-Secondary-hover, #ffbe32);
+
+}
+.secondary:active  {
+    background: var(--primary-primary-pressed, #fcb929);
+    scale: 1.055;
+}

@@ -1,0 +1,18 @@
+.sale {
+    display: flex;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--primary-shade-3, #041F49);
+}
+
+.sale p {
+    color: var(--secondary-Secondary, #F6AA00);
+
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

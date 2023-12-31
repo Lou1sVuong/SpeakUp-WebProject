@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    padding: 3.75rem 6.75rem;
+    justify-content: center;
+    align-items: center;
+    height: 40.5rem;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #0065F4 1.75%, #00B6FF 103.23%);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    width: 37.5rem;
+    color: var(--Neutral-white, #FFF);
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+}
+
+.content h1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+
+}
+.content p {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
