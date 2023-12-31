@@ -13,7 +13,6 @@ import PricingPlan from '../../Components/LandingPage/PricingPlan/PricingPlan';
 function Home() {
   return (
     <>
-      <Header light />
       <Sale />
       <Hero />
       <Introduction />
@@ -22,7 +21,6 @@ function Home() {
       <AboutLandingPage/>
       <CommentLP/>
       <PricingPlan/>
-      <Footer dark />
     </>
   );
 }

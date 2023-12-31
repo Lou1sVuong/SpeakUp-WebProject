@@ -55,3 +55,8 @@ a {
 button {
 	border: none;
 }
+
+
+section {
+    padding: 0 6.875rem;
+}

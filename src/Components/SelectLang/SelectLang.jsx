@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from './SelectLang.module.css';
-function SelectLang() {
+function SelectLang({ lang }) {
     const [isHovered, setIsHovered] = useState(false);
 
     let textStyle = {
@@ -31,7 +31,7 @@ function SelectLang() {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
-            <span>EN</span>
+            {lang || 'English'}
             <span class="material-symbols-outlined">
 keyboard_arrow_down
 </span>
