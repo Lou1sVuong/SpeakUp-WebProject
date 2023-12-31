@@ -48,7 +48,7 @@ function CommentLP() {
                 <Star/> 
             </div>
             <p className={styles.cmt}>
-            "I just had a an honest to god conversation in French with a friend in Quebec! I stumbled a bit, but we only used a translator very rarely, and it’s because of Speak Up!"
+            "I just had a an honest to god conversation in French with a friend in Quebec! I stumbled a bit, but we only used a translator very rarely, and it’s because of Speak Up! I just had a an honest to god conversation in French with a friend in Quebec! I stumbled a bit, but we only used a translator very rarely, and it’s because of Speak Up!"
             </p>
             <div className={styles.status}>
                 <p>jack watson, <span>14 days</span></p>
