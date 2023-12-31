@@ -1,0 +1,50 @@
+.TestYourEn {
+    display: flex;
+    background: var(--Neutral-Background-neutral, #F2F7FD);
+    font-style: normal;
+    line-height: normal;
+    font-family: Poppins;
+}
+
+.main {
+    display: flex;
+    padding: 2rem 6.75rem 6rem;
+}
+.left {
+    width: 50%;
+}
+
+.left h1 {
+    color: var(--primary-shade-3, #041F49);
+    color: var(--primary-shade-3, color(display-p3 0.0431 0.1176 0.2745));
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.left p {
+    width: 75%;
+color: var(--primary-shade-3, #041F49);
+font-size: 1.25rem;
+font-weight: 700;
+}
+.left p span {
+    color: var(--primary-primary, color(display-p3 0.1451 0.3882 0.9216));
+    }
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.block {
+    border-radius: 0.5rem;
+    display: flex;
+    width: 25rem;
+    height: 4rem;
+    padding: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: var(--White, #FFF);
+}

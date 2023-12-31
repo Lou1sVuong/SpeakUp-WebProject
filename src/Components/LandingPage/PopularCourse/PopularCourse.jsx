@@ -46,7 +46,7 @@ function PopularCourse() {
     },
     {
       image: 'https://elearningindustry.com/wp-content/uploads/2020/11/how-to-use-animation-for-online-courses.jpg',
-      title: 'Learning historical words and sentencesLearning historical words and sentencesLearning historical words and sentencesLearning historical words and sentences',
+      title: 'Learning historical words and sentences',
       lesson: 12,
       student: 250,
       level: 'Advanced',

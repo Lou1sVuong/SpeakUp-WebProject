@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap : 8rem;
+    align-self: stretch;
+    padding: 4em 6.75rem;
+    background: var(--Neutral-white, #FFF);
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+.col img {
+    width: 34.28125rem;
+height: 27.8125rem;
+border-radius: 1rem;
+object-fit: cover;
+flex-shrink: 0;
+}
+.col h2 {
+    color: var(--Neutral-Black2-1D1D1D, #1D1D1D);
+    font-size: 2.5rem;
+    font-weight: 700;
+   
+}
+.col h3 {
+    color: var(--Neutral-Black1-0C0C0C, #0C0C0C);
+font-size: 2rem;
+font-weight: 700;
+}
+.col p {
+    width: 80%;
+    color: var(--primary-shade-4, color(display-p3 0.0157 0.0392 0.0902));
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 1.75rem;
+}

@@ -5,6 +5,9 @@ import Sale from '../../Components/LandingPage/Sale/Sale';
 import Hero from '../../Components/LandingPage/Hero/Hero';
 import Introduction from '../../Components/LandingPage/Introduction/Introduction';
 import PopularCourse from '../../Components/LandingPage/PopularCourse/PopularCourse';
+import TestYourEn from '../../Components/LandingPage/TestYourEn/TestYourEn';
+import AboutLandingPage from '../../Components/LandingPage/AboutLandingPage/AboutLandingPage';
+import CommentLP from '../../Components/LandingPage/CommentLP/CommentLP';
 
 function Home() {
   return (
@@ -14,6 +17,9 @@ function Home() {
       <Hero />
       <Introduction />
       <PopularCourse />
+      <TestYourEn />
+      <AboutLandingPage/>
+      <CommentLP/>
       <Footer dark />
     </>
   );

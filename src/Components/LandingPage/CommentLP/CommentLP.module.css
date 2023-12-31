@@ -1,0 +1,62 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    line-height: normal;
+    font-style: normal;
+    padding: 4em 6.75rem;
+}
+
+.heading h1 {
+    color: var(--Neutral-Black1-0C0C0C, #0c0c0c);
+    color: var(--Neutral-Black1-0C0C0C, color(display-p3 0.0471 0.0471 0.0471));
+    font-size: 2.75rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.heading p {
+    color: var(--Neutral-Black2-1D1D1D, #1d1d1d);
+    color: var(--Neutral-Black2-1D1D1D, color(display-p3 0.1125 0.1125 0.1125));
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.listCardCmt {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    padding: 1.6875rem 1.1875rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.625rem;
+    flex: 1 0 0;
+    border-radius: 0.5rem;
+    background: var(--Neutral-white, #FFF);
+    box-shadow: 0px 4px 60px 0px rgba(36, 45, 123, 0.08);
+}
+
+.listStar {
+    display: flex;
+    gap: 0.45rem;
+}
+
+.status {
+    color: var(--Neutral-Black3-4F4F4F, #282828);
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.status span {
+    color: var(--Neutral-Black3-4F4F4F, color(display-p3 0.1583 0.1583 0.1583));
+    font-size: 0.75rem;
+    font-weight: 400;
+}
