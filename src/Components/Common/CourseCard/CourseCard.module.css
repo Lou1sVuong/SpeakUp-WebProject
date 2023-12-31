@@ -13,6 +13,10 @@
     border: 1px solid var(--Neutral-gray-DFDFDF, #DFDFDF);
     background: var(--Neutral-white, #FFF);
     padding: 2rem 0.9rem;
+}
+.CourseCard:hover {
+    background: var(--primary-tint-2, #D0E1FE);
+    box-shadow: 0px 4px 60px 0px rgba(36, 45, 123, 0.2);
 }   
 
 .imgBox {

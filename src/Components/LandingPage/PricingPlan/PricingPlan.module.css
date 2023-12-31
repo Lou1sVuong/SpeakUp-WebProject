@@ -31,7 +31,7 @@
     font-weight: 400;
 }
 
-.listCardCmt {
+.content {
     display: flex;
     gap: 1.5rem;
     margin-top: 3rem;
@@ -43,42 +43,66 @@
     display: flex;
     padding: 1.6875rem 3.1875rem;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    height: fit-content;
+    /* text-align: center; */
     gap: 0.625rem;
     flex: 1 0 0;
     border-radius: 0.5rem;
     background: var(--Neutral-white, #FFF);
     box-shadow: 0px 4px 60px 0px rgba(36, 45, 123, 0.08);
 }
-
 .card:hover {
-    box-shadow: 0px 4px 60px 0px rgba(36, 45, 123, 0.2);
+    box-shadow: 3px 3px 20px 0px rgba(138, 178, 251, 0.30);
 }
-
-.listStar {
+.headingCard {
     display: flex;
-    gap: 0.45rem;
+    flex-direction: column;
+    gap: 0.25rem;
+
 }
 
-.cmt {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 4;
-}
+.headingCard h2 {
+    color: var(--Neutral-Black2-1D1D1D, #1D1D1D);
+    color: var(--Neutral-Black2-1D1D1D, color(display-p3 0.1125 0.1125 0.1125));
 
-
-.status {
-    color: var(--Neutral-Black3-4F4F4F, #282828);
-    text-align: center;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
-.status span {
-    color: var(--Neutral-Black3-4F4F4F, color(display-p3 0.1583 0.1583 0.1583));
-    font-size: 0.75rem;
+.headingCard p {
+    color: var(--Neutral-gray-404040, #404040);
+
+    font-size: 1rem;
     font-weight: 400;
+}
+
+.price {
+    margin: 1rem 0;
+    padding: 0.9375rem 0 0.9375rem 0.9375rem;
+    background: var(--primary-tint-1, #E8EFFE);
+    background: var(--primary-tint-1, color(display-p3 0.9137 0.9373 0.9922));
+}
+
+.premium {
+    background: var(--primary-tint-4, #8AB2FB);
+    background: var(--primary-tint-4, color(display-p3 0.5725 0.6941 0.9608));
+}
+
+.price h4 {
+    color: var(--Neutral-Black2-1D1D1D, #1D1D1D);
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.8rem;
+}
+
+.list .row {
+    display: flex;
+    gap: 0.3rem;
 }

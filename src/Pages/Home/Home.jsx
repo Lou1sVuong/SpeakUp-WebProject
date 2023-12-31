@@ -8,6 +8,7 @@ import PopularCourse from '../../Components/LandingPage/PopularCourse/PopularCou
 import TestYourEn from '../../Components/LandingPage/TestYourEn/TestYourEn';
 import AboutLandingPage from '../../Components/LandingPage/AboutLandingPage/AboutLandingPage';
 import CommentLP from '../../Components/LandingPage/CommentLP/CommentLP';
+import PricingPlan from '../../Components/LandingPage/PricingPlan/PricingPlan';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <TestYourEn />
       <AboutLandingPage/>
       <CommentLP/>
+      <PricingPlan/>
       <Footer dark />
     </>
   );
