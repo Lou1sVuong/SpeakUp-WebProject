@@ -3,8 +3,10 @@ import NotFoundImg from '../../Assets/Svg/NotFound.svg'
 import Button from '../../Components/Common/Button/Button'
 import { Link } from 'react-router-dom'
 import styles from './NotFound.module.css'
+import useScrollToTop from '../../Hooks/useScrollToTop'
 
 function NotFound() {
+  useScrollToTop()
   return (
     <div>
       <section>

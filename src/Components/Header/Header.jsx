@@ -5,30 +5,42 @@ import { useEffect } from "react";
 import HeaderText from "./HeaderText/HeaderText";
 import SelectLang from "../SelectLang/SelectLang";
 import clsx from "clsx";
+import { Link, useLocation } from "react-router-dom";
 
 function Header({ light, dark }) {
-  const listNav = ["Home", "Courses", "Contact us", "About us"];
+  const listNav = [
+    { name: "Home", link: "/" },
+    { name: "Courses", link: "/Courses" },
+    { name: "Contact", link: "/Contact" },
+    { name: "About us", link: "/AboutUs" },
+  ];
+
+  const location = useLocation();
+
   const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleHeaderTextClick = (index) => {
-      setActiveIndex(index);
+  useEffect(() => {
+    const foundIndex = listNav.findIndex((item) => item.link === location.pathname);
+    setActiveIndex(foundIndex);
+  }, [listNav, location]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector(`.${styles.header}`);
+      if (header && window.scrollY > 80) {
+        header.classList.add(styles.active);
+      } else if (header) {
+        header.classList.remove(styles.active);
+      }
     };
-    useEffect(() => {
-      const handleScroll = () => {
-        const header = document.querySelector(`.${styles.header}`);
-        if (header && window.scrollY > 80) {
-          header.classList.add(styles.active);
-        } else if (header) {
-          header.classList.remove(styles.active);
-        }
-      };
-  
-      window.addEventListener('scroll', handleScroll);
-  
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, [styles.header]);
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [styles.header]);
+
   return (
     <nav className={clsx(styles.header, { [styles.bgLight]: light, [styles.bgDark]: dark })}>
       {light ? <Logo light /> : dark ? <Logo dark /> : light}
@@ -36,18 +48,22 @@ function Header({ light, dark }) {
         {listNav.map((item, index) => {
           return (
             <li key={index}>
-              <HeaderText
-                text={item}
-                dark={dark}
-                isActive={activeIndex === index}
-                onClick={() => handleHeaderTextClick(index)}
-              />
+              <Link to={item.link}>
+                <HeaderText
+                  text={item.name}
+                  dark={dark}
+                  isActive={activeIndex === index}
+                  onClick={() => setActiveIndex(index)}
+                />
+              </Link>
             </li>
           );
         })}
       </ul>
       <div className={styles.userBox}>
-        <span className="material-symbols-outlined">person</span>
+        <Link to="/Login">
+          <span className="material-symbols-outlined">person</span>
+        </Link>
         <SelectLang lang="EN" />
       </div>
     </nav>

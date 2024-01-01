@@ -6,7 +6,7 @@ function MainLayout({children}) {
   return (
      <div>
         <Header light />
-        {children}
+       <div>{children}</div>
         <Footer dark/>
      </div>
   )

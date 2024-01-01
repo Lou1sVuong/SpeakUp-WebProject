@@ -1,0 +1,20 @@
+.LoginContair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 13.25rem;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    background: var(--primary-tint-1, #E8EFFE);
+    background: var(--primary-tint-1, color(display-p3 0.9137 0.9373 0.9922));
+}
+
+.col {
+    flex: 1;
+}
+
+.col img {
+    width: 31rem;
+    height: 48rem;
+    object-fit: cover;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}

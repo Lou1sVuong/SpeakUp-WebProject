@@ -1,5 +1,5 @@
 import Home from "../Pages/Home/Home"
-import Testpage from "../Pages/TestPage/Testpage"
+import Login from "../Pages/Login/Login"
 
 
 const publicRoutes = [
@@ -8,12 +8,12 @@ const publicRoutes = [
         component: Home,
     },
     {
-        path: "/testpage",
-        component: Testpage,
-    }
+        path: "/Login",
+        component: Login,
+    },
+    
 ]
 const privateRoutes = [
 
 ]
-
 export { publicRoutes, privateRoutes}

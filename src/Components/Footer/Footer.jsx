@@ -28,7 +28,7 @@ function Footer({ light , dark}) {
                 <h3>{title}</h3>
                 {items.map((item, itemIndex) => (
                   <p className={styles.rowInCol} key={itemIndex}>
-                    <ContactItem {...item} />
+                    <div><ContactItem {...item} /></div>
                   </p>
                 ))}
               </div>
@@ -37,22 +37,22 @@ function Footer({ light , dark}) {
           <ul className={styles.socialBox}>
             <li>
               <a href="">
-              <i class="fab fa-facebook-f"></i>
+              <i className="fab fa-facebook-f"></i>
               </a>
             </li>
             <li>
               <a href="">
-              <i class="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in"></i>
               </a>
             </li>
             <li>
               <a href="">
-              <i class="fab fa-twitter"></i>
+              <i className="fab fa-twitter"></i>
               </a>
             </li>
             <li>
               <a href="">
-              <i class="fab fa-pinterest"></i>
+              <i className="fab fa-pinterest"></i>
               </a>
             </li>
           </ul>

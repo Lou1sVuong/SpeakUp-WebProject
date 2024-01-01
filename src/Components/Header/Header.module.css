@@ -1,4 +1,11 @@
 .header {
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
+} 
+
+.header {
   top: 0;
   right: 0;
   left: 0;
@@ -30,12 +37,18 @@
 }
 .userBox {
   display: flex;
+  box-sizing: border-box;
+  justify-content: center;
   align-items: flex-end;
-  gap: 1.5rem;
+  cursor: pointer;
 }
 .bgLight {
   background: var(--Neutral-white, #FFF);
 }
 .bgDark {
   background: linear-gradient(180deg, #0065F4 0%, #01337B 100%);
+}
+.userBox span {
+  padding: 1rem;
+  font-size: 1.5rem;
 }

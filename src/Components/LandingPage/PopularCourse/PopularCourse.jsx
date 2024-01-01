@@ -71,7 +71,7 @@ function PopularCourse() {
         ))}
       </div>
       <div className={styles.viewMore}>
-      <Button nofillPrimary width="24rem" rightIcon={<i class="fas fa-chevron-right"></i>}>See All Courses</Button>
+      <Button nofillPrimary width="24rem" rightIcon={<i className="fas fa-chevron-right"></i>}>See All Courses</Button>
       </div>
     </div>
   );

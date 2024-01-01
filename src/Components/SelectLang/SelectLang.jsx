@@ -32,7 +32,7 @@ function SelectLang({ lang }) {
             onMouseLeave={handleMouseLeave}
         >
             {lang || 'English'}
-            <span class="material-symbols-outlined">
+            <span className="material-symbols-outlined">
 keyboard_arrow_down
 </span>
         </div>

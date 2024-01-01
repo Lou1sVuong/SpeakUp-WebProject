@@ -28,7 +28,7 @@ function CourseCard({ image, title, lesson, student, level, score }) {
         </div>
       </div>
       <div className={styles.row}>
-      <Button primary rightIcon={<i class="fas fa-chevron-right"></i>}>Start Course</Button>
+      <Button primary rightIcon={<i className="fas fa-chevron-right"></i>}>Start Course</Button>
       <Score score={score}/>
       </div>
     </div>
