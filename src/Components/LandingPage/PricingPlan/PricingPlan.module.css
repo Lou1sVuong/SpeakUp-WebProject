@@ -44,15 +44,16 @@
     padding: 1.6875rem 3.1875rem;
     flex-direction: column;
     height: fit-content;
-    /* text-align: center; */
     gap: 0.625rem;
     flex: 1 0 0;
     border-radius: 0.5rem;
     background: var(--Neutral-white, #FFF);
     box-shadow: 0px 4px 60px 0px rgba(36, 45, 123, 0.08);
+    transition: transform 0.3s ease-in-out;
 }
 .card:hover {
     box-shadow: 3px 3px 20px 0px rgba(138, 178, 251, 0.30);
+    transform: scale(1.01);
 }
 .headingCard {
     display: flex;

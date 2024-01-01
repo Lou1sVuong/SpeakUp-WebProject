@@ -8,7 +8,7 @@ function Hero() {
       <div className={styles.content}>
         <h1>Studying Online is now much easier</h1>
         <p>Speak Up is an interesting platform that will teach you in more an interactive way</p>
-        <Button secondary>Let’s start</Button>
+        <Button secondary width="8rem">Let’s start</Button>
       </div>
       <div className={styles.imgHero}>
         <img src={HeroImg} alt="Hero Image" />

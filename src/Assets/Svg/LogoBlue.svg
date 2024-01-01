@@ -1,9 +1,9 @@
 <svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
  <rect width="50" height="51" fill="none"/>
 <g id="header &#38; footer">
-<path d="M-110 -1309C-110 -1310.1 -109.105 -1311 -108 -1311H2083C2084.1 -1311 2085 -1310.1 2085 -1309V830C2085 831.104 2084.1 832 2083 832H-108C-109.105 832 -110 831.104 -110 830V-1309Z" fill="#0592FC" fill-opacity="0.21" style="fill:#0592FC;fill:color(display-p3 0.0196 0.5725 0.9882);fill-opacity:0.21;"/>
+<path d="M-110 -1309C-110 -1310.1 -109.105 -1311 -108 -1311H2083C2084.1 -1311 2085 -1310.1 2085 -1309V830C2085 831.104 2084.1 832 2083 832H-108C-109.105 832 -110 831.104 -110 830V-1309Z" />
 <g id="parisa/logo">
-<rect x="-19.5" y="-21.5" width="452" height="272" rx="4.5" fill="white" style="fill:white;fill-opacity:1;"/>
+<rect x="-19.5" y="-21.5" width="452" height="272" rx="4.5" />
 <rect x="-19.5" y="-21.5" width="452" height="272" rx="4.5" stroke="#9747FF" style="stroke:#9747FF;stroke:color(display-p3 0.5922 0.2784 1.0000);stroke-opacity:1;" stroke-dasharray="10 5"/>
 <g id="size=desktop, color=dark blue">
 <g id="Vector 4089">
