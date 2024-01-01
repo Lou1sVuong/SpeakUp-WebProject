@@ -22,7 +22,9 @@ function Input({ type = 'text', placeholder = '', width, height}) {
     border: 'none',
     background: 'transparent',
     cursor: 'pointer',
-    padding: '0.5rem 2rem'
+    width: '2rem',
+    height: '2rem',
+    marginRight: '1rem',
   };
 
 return (
