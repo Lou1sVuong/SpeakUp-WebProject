@@ -19,7 +19,7 @@ function ConfirmNewPass() {
             <p>Enter a new Password</p>
             <Input
               width="100%"
-              type="text"
+              type="password"
               placeholder="New Password"
             />
           </div>
@@ -27,7 +27,7 @@ function ConfirmNewPass() {
             <p>Confirm New Password</p>
             <Input
               width="100%"
-              type="text"
+              type="password"
               placeholder="Confirm Password"
             />
           </div>

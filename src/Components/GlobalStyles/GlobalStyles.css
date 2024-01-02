@@ -4,7 +4,7 @@ html{
     scroll-behavior: smooth;    
 }
 html::-webkit-scrollbar{
-    width:1rem;
+    width:0.5rem;
 }
 
 html::-webkit-scrollbar-track{
@@ -12,7 +12,8 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--black);
+	border-radius: 2rem;
+    background:var(--Neutral-gray-2);
 }
 
 html, body, div, span, applet, object, iframe,

@@ -1,0 +1,24 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 11.5rem;
+    height: 11.25rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: 1px solid var(--Neutral-gray-BDBDBD, #BDBDBD);
+    border: 1px solid var(--Neutral-gray-BDBDBD, color(display-p3 0.7412 0.7412 0.7412));
+}
+
+.box h3 {
+    color: var(--Neutral-Black1-0C0C0C, #0C0C0C);
+    color: var(--Neutral-Black1-0C0C0C, color(display-p3 0.0471 0.0471 0.0471));
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

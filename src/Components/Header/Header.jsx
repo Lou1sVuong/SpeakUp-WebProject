@@ -12,7 +12,7 @@ function Header({ light, dark }) {
     { name: "Home", link: "/" },
     { name: "Courses", link: "/Courses" },
     { name: "Contact", link: "/Contact" },
-    { name: "About us", link: "/AboutUs" },
+    { name: "About us", link: "/About" },
   ];
 
   const location = useLocation();

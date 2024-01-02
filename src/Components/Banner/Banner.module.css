@@ -1,0 +1,77 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 28rem;
+    flex-shrink: 0;
+    background: var(--primary-primary, #0065F4);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bannerCenter {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    width: 100%;
+    height: 13.5625rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    color: var(--Neutral-white, color(display-p3 1 1 1));
+    color: var(--Neutral-white, #FFF);
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+.text h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.text {
+    width: 60%;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.graph {
+}
+
+.graph01 {
+    position: absolute;
+    top: -80px;
+    right: 0px;
+    width: 24.61063rem;
+    height: 24.61063rem;
+    transform: rotate(120deg);
+    flex-shrink: 0;
+    border-radius: 8.125rem;
+    opacity: 0.6;
+    background: var(--primary-shade-1, #003C92);
+}
+
+.graph02 {
+    position: absolute;
+    bottom: -70px;
+    right: -123px;
+    width: 24.19338rem;
+    height: 21rem;
+    transform: rotate(-167.108deg);
+    flex-shrink: 0;
+    border-radius: 7.3125rem;
+    background: linear-gradient(180deg, #1374FF 22.92%, #004CE0 100%);
+    background: linear-gradient(180deg, color(display-p3 0.2094 0.4466 0.9667) 22.92%, color(display-p3 0.0388 0.2915 0.8458) 100%);
+}
