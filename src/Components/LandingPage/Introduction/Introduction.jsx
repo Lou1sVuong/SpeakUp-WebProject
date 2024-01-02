@@ -32,7 +32,7 @@ function Introduction() {
           <div className={clsx(styles.blockBorder, styles.blockBorder02)}>
             <h4>Fun fact :</h4>
             <p>
-              Did you know remember %95 of a massage when it’s watched vs only
+              Did you know remember 95% of a massage when it’s watched vs only
               10% of what you read try it.
             </p>
           </div>
