@@ -8,7 +8,7 @@ function CourseCard({ image, title, lesson, student, level, score }) {
   return (
     <div className={styles.CourseCard}>
       <div className={styles.imgBox}>
-      <img src={image} alt="" className={styles.image} />
+      <img src={image} alt="Image is loading or does not exist" className={styles.image} />
       </div>
       <div className={styles.title}>
         <h3>{title}</h3>
