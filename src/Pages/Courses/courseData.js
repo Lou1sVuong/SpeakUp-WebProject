@@ -47,7 +47,6 @@
       level: 'Advanced',
       score: 4.8,
     },
-    // Thêm 12 khoá học mới
     {
       image: 'https://elearningindustry.com/wp-content/uploads/2020/11/how-to-use-animation-for-online-courses.jpg',
       title: 'Introduction to Ancient Civilizations',

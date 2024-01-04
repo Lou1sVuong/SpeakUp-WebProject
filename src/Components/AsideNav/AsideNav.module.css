@@ -1,0 +1,65 @@
+.aside {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 34.5625rem;
+    padding: 1.875rem 0rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    background: #f8fafd;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 1.5rem;
+    color: #000;
+    font-family: Poppins;
+    font-style: normal;
+    line-height: normal;
+}
+.text .name {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.text .address {
+    font-size: 0.75rem;
+    font-weight: 400;
+} 
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.aside h2 {
+    padding: 0rem 1.5rem;
+    color: var(--Neutral-gray-404040, #404040);
+
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.MenuBar {
+    margin-top: 1rem;
+    width: 100%;
+}

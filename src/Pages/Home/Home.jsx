@@ -9,8 +9,10 @@ import TestYourEn from '../../Components/LandingPage/TestYourEn/TestYourEn';
 import AboutLandingPage from '../../Components/LandingPage/AboutLandingPage/AboutLandingPage';
 import CommentLP from '../../Components/LandingPage/CommentLP/CommentLP';
 import PricingPlan from '../../Components/LandingPage/PricingPlan/PricingPlan';
+import useScrollToTop from '../../Hooks/useScrollToTop';
 
 function Home() {
+  useScrollToTop();
   return (
     <>
       <Sale />

@@ -3,15 +3,17 @@ import styles from './Courses.module.css';
 import Button from '../../Components/Common/Button/Button';
 import CourseCard from '../../Components/Common/CourseCard/CourseCard';
 import { courseData } from '../../Pages/Courses/courseData';
+import useScrollToTop from '../../Hooks/useScrollToTop';
 
 function Courses() {
+  useScrollToTop()
   const [showAllCourses, setShowAllCourses] = useState(false);
 
   let coursesToDisplay = showAllCourses ? courseData : courseData.slice(0, 9);
 
   return (
     <div className={styles.main}>
-      <h2 className={styles.title}>Popular Course</h2>
+      <h2 className={styles.title}>English Courses</h2>
       <div className={styles.list}>
         {coursesToDisplay.map((course, index) => (
           <CourseCard
