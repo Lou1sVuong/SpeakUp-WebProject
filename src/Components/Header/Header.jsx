@@ -28,7 +28,7 @@ function Header({ light, dark }) {
   useEffect(() => {
     const handleScroll = () => {
       const header = document.querySelector(`.${styles.header}`);
-      if (header && window.scrollY > 80) {
+      if (header && window.scrollY > 300) {
         header.classList.add(styles.active);
       } else if (header) {
         header.classList.remove(styles.active);

@@ -24,6 +24,7 @@ function Courses() {
             student={course.student}
             level={course.level}
             score={Math.round(course.score)}
+            className={index === coursesToDisplay.length - 1 ? styles.lastItem : ''}
           />
         ))}
       </div>

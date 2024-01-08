@@ -3,12 +3,8 @@ import styles from "../../Assets/Styles/LoginAndRegister.module.css";
 import LoginImg from "../../Assets/Image/Login/Login.jpg";
 import useScrollToTop from "../../Hooks/useScrollToTop";
 import Input from "../../Components/Common/Input/Input";
-import CheckBox from "../../Components/Common/CheckBox/CheckBox";
 import Button from "../../Components/Common/Button/Button";
 import clsx from "clsx";
-import Google from "../../Assets/ComponentSVG/Google";
-import FacebookFill from "../../Assets/ComponentSVG/FacebookFill";
-import Instagram from "../../Assets/ComponentSVG/Instagram";
 import { Link } from "react-router-dom";
 function SignUp() {
 useScrollToTop();

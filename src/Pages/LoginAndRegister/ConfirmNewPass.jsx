@@ -4,7 +4,6 @@ import LoginImg from "../../Assets/Image/Login/Login.jpg";
 import Input from "../../Components/Common/Input/Input";
 import Button from "../../Components/Common/Button/Button";
 import clsx from "clsx";
-import { Link } from "react-router-dom";
 
 function ConfirmNewPass() {
   return (

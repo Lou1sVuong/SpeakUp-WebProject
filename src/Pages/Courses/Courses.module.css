@@ -20,9 +20,12 @@
 .list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 2rem;
 }
+.lastItem {
+    order: -1; 
+  }
 
 .viewMore {
     margin-top: 1.5rem;
