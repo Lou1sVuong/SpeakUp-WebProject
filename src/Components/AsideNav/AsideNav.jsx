@@ -35,7 +35,7 @@ function AsideNav() {
     <aside className={styles.aside}>
       <div className={styles.info}>
         <div className={styles.avatar}>
-          <img src="https://s3-alpha-sig.figma.com/img/3170/76df/a57d49314359fd7606cce752f3324d5d?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HT3KUkMo5QwGIYVziV9t6hIJVcWeBKGUi4c~L7emcRC~01KaW-TqMEtWFZ~U-rm9HnGXxezMT0~6BOAwEKE8vF92kKXbj-lEghuQ2lOt5~64x-7tX~A0MTxZgLRMtGxgZpGNp9NUejoge8YuvBGZQ-bhgEUWK-N2IjE-~IaMpitG-LzJV~T-wFR8X6QJDZsKguFjLEkVvFNcPdzVrkvIjNOXow4VDC89x3d2z5dyqkaz6VJBuqSdSCD~jteK3ND50i65scrFXXrmgPbcY~NKI7jk0ma~qXVadPIlxGDd234o0ENv0wPKBvjKdgIrVtrO1bzkb32jdv6-1hODqpoaBw__" alt="" />
+          <img src="https://i.pinimg.com/736x/4a/4c/29/4a4c29807499a1a8085e9bde536a570a.jpg" alt="" />
         </div>
         <div className={styles.text}>
           <div className={styles.name}>
