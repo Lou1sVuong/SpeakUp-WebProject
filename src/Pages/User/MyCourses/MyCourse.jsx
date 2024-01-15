@@ -3,7 +3,7 @@ import React from 'react'
 function MyCourses() {
   return (
     <div>
-      MyCourse
+      MyCourse test git
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import CourseCard from '../../Common/CourseCard/CourseCard';
 import styles from './PopularCourse.module.css';
 import Button from '../../Common/Button/Button';
+import { Link } from 'react-router-dom';
 function PopularCourse() {
   const courseData = [
     {
@@ -71,7 +72,9 @@ function PopularCourse() {
         ))}
       </div>
       <div className={styles.viewMore}>
-      <Button nofillPrimary width="24rem" rightIcon={<i className="fas fa-chevron-right"></i>}>See All Courses</Button>
+        <Link to="/Courses">
+          <Button nofillPrimary width="24rem" rightIcon={<i className="fas fa-chevron-right"></i>}>See All Courses</Button>
+        </Link>
       </div>
     </div>
   );

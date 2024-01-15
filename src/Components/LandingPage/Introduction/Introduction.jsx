@@ -40,7 +40,7 @@ function Introduction() {
       </div>
       <div className={styles.row}>
         <div className={styles.col}>
-          <img src={Image02} alt="Image 2" />
+          <img src={Image02} alt=" " />
         </div>
         <div className={styles.col}>
           <h3>You can learn online and sit in class</h3>
@@ -66,7 +66,7 @@ function Introduction() {
           </p>
         </div>
         <div className={styles.col}>
-          <img src={Image03} alt="Image 2" />
+          <img src={Image03} alt=" " />
         </div>
       </div>
     </div>

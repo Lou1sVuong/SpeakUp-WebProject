@@ -11,7 +11,7 @@ function Hero() {
         <Button secondary width="8rem">Let’s start</Button>
       </div>
       <div className={styles.imgHero}>
-        <img src={HeroImg} alt="Hero Image" />
+        <img src={HeroImg} alt="HeroImage" />
       </div>
     </div>
   )
